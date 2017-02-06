@@ -1,7 +1,7 @@
 body {
   /* Set the background color to "lightgrey" */
   /* Set font family to be Helvetica or Arial */
-  /* Set line height to be 1.5 times larger than default */  
+  /* Set line height to be 1.5 times larger than default */
   /* Set margin to 0 all the way around */
 }
 
@@ -15,10 +15,6 @@ h1 {
 
 h2 {
   /* Set the font color to be a dark grey, try using a hex (666666) or rgb code! */
-}
-
-.faded {
-  /* Set opacity of the text to be 0.7 (70%) */
 }
 
 img {
@@ -36,8 +32,12 @@ footer {
   /* Set margin on top to be 60 pixels */
 }
 
+.faded {
+  /* Set opacity of the text to be 0.7 (70%) */
+}
 
-@media (max-width: 700px) {
+
+@media (min-width: 700px) {
 
   body {
     /* Set the background color to be a dark grey */
@@ -52,7 +52,7 @@ footer {
     /* Set width to be 640 pixels */
     /* Set margin to be auto calculated on the left/right sides */
   }
-  
+
   header {
   /* Set the text alignment to be center */
   }
